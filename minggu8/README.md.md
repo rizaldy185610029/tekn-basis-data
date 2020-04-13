@@ -8,3 +8,14 @@
 
 
 # PEMBAHASAN
+# Lima Menit Pertama
+![Gambar 1](gambar_1.jpg)
+Perintah pertama membuat instance Graph bernama graph, yang dengan demikian menyediakan referensi ke data yang Anda inginkan untuk dilalui GREMLIN. Sayangnya, memiliki grafik tidak memberikan GREMLIN konteks yang cukup untuk melakukan pekerjaannya. Anda juga memerlukan sesuatu yang disebut TraversalSource, yang dihasilkan oleh perintah kedua. TraversalSource memberikan informasi tambahan kepada GREMLIN (seperti strategi traversal untuk diterapkan dan mesin traversal untuk digunakan) yang memberinya panduan tentang cara menjalankan perjalanannya di sekitar Grafik.
+Ada beberapa cara untuk membuat TraversalSource. Contoh di atas menggunakan gaya tertanam dan merupakan pendekatan terbatas untuk bahasa menggunakan Java Virtual Machine (JVM). Metode lain serupa dalam bentuk, tetapi bukan fokus tutorial ini. Lihat Dokumentasi Referensi untuk informasi lebih lanjut tentang berbagai cara menghubungkan dengan GREMLIN.
+
+![Gambar 2](gambar_2.jpg)
+Dapatkan semua simpul dalam Grafik. Dapatkan simpul dengan pengidentifikasi unik "1". Dapatkan nilai properti nama pada titik dengan pengidentifikasi unik "1". Dapatkan tepi dengan label "tahu" untuk titik dengan pengidentifikasi unik "1". Dapatkan nama-nama orang yang memiliki simpul dengan pengidentifikasi unik "1" "tahu". Perhatikan bahwa ketika seseorang menggunakan outE (). InV () seperti yang ditunjukkan pada perintah sebelumnya, ini dapat disingkat menjadi just out () (mirip dengan inE (). OutV () dan in () untuk tepi yang masuk). Dapatkan nama orang-orang vertex "1" tahu siapa yang berusia di atas 30.
+
+# Lima belas Menit Selanjutnya
+![Gambar 3](gambar_3.jpg)
+
