@@ -6,7 +6,7 @@ instalasi PyMongo
 ![Gambar 6](gambar_6.jpg) ![Gambar 7](gambar_7.jpg)
 
 # PEMBAHASAN
-#![Gambar 1](gambar_1.jpg) ![Gambar 2](gambar_2.jpg) ![Gambar 3](gambar_3.jpg)
+![Gambar 1](gambar_1.jpg) ![Gambar 2](gambar_2.jpg) ![Gambar 3](gambar_3.jpg)
 Pada gambar tersebut dijelaskan cara instalasi PyMongo menggunakan driver mongodb untuk python
 
 ![Gambar 4](gambar_4.jpg)
